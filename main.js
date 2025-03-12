@@ -52,8 +52,6 @@ fetch("https://countries.trevorblades.com/", {
   .catch((error) => console.error("Error:", error));
 
 function show(data) {
-  console.log(data.EA);
-
   let card = document.querySelector(".card_1");
   let card_2 = document.querySelector(".card_2");
   let card_3 = document.querySelector(".card_3");
